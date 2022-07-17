@@ -15,9 +15,9 @@ Requirements:
 You can build and install catter with this command. It will install to $HOME/.bin/ or $HOME/bin/ if the first isn't present in your home directory.
 #+BEGIN_SRC shell
   just install
-#To
+#+END_SRC
 
-+END_SRC remove catter use remove recipe.
+To remove catter use remove recipe.
 #+BEGIN_SRC shell
   just remove
 #+END_SRC
@@ -27,4 +27,5 @@ You can build and install catter with this command. It will install to $HOME/.bi
 Copyright © 2022 Purrie Brightstar.
 
 Licence GPLv2: GNU GPL version 2 <https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html>
+
 This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law.
