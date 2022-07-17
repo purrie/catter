@@ -8,15 +8,16 @@ The project serves a purpose of giving me an opportunity to learn Rust language 
 * Installation
 Requirements:
 + [[https://www.rust-lang.org/][Rust/Cargo]]
-You will need this to compile the program
+  - You will need this to compile the program
 + [[https://github.com/casey/just][Just]]
-Repository contains a justfile that can be used to automate build and installation process.
+  - Repository contains a justfile that can be used to automate build and installation process.
+
 You can build and install catter with this command. It will install to $HOME/.bin/ or $HOME/bin/ if the first isn't present in your home directory.
 #+BEGIN_SRC shell
   just install
-#+END_SRC
+#To
 
-To remove catter use remove recipe.
++END_SRC remove catter use remove recipe.
 #+BEGIN_SRC shell
   just remove
 #+END_SRC
@@ -24,6 +25,6 @@ To remove catter use remove recipe.
   Otherwise Just is optional.
 * Copyright
 Copyright © 2022 Purrie Brightstar.
+
 Licence GPLv2: GNU GPL version 2 <https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html>
-This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.
+This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law.
