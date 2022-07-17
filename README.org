@@ -1,3 +1,5 @@
+#+OPTIONS: \n:t
+
 * Catter
 Simple terminal based text file reader written in Rust. Works similarly to GNU cat but is more focused on viewing text files with interactive scrolling functionality for longer files. Catter silently omits any non-text based file as to not clutter the output.
 
